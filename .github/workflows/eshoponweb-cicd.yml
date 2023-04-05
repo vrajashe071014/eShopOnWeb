@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-edulearn
-  LOCATION: eastus
+  LOCATION: South India
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: d6e33e6c-1c88-4791-a0ef-a2fac801824c
   WEBAPP-NAME: az400-webapp-edulearn
